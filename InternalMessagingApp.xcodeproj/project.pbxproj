@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D700011D09CC0200712497 /* targaryen.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D700001D09CC0200712497 /* targaryen.png */; };
+		56D700031D0B2A6F00712497 /* fire_and_ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D700021D0B2A6F00712497 /* fire_and_ice.jpg */; };
+		56D700061D0B2A7E00712497 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D700041D0B2A7E00712497 /* LandingViewController.swift */; };
+		56D700071D0B2A7E00712497 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D700051D0B2A7E00712497 /* LandingViewController.xib */; };
+		56D7FFE01D09C43400712497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7FFDF1D09C43400712497 /* AppDelegate.swift */; };
+		56D7FFE71D09C43400712497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFE61D09C43400712497 /* Assets.xcassets */; };
+		56D7FFEA1D09C43400712497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFE81D09C43400712497 /* LaunchScreen.storyboard */; };
+		56D7FFF31D09C46A00712497 /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7FFF11D09C46A00712497 /* FireViewController.swift */; };
+		56D7FFF41D09C46A00712497 /* FireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFF21D09C46A00712497 /* FireViewController.xib */; };
+		56D7FFF71D09C48B00712497 /* IceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D7FFF51D09C48B00712497 /* IceViewController.swift */; };
+		56D7FFF81D09C48B00712497 /* IceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFF61D09C48B00712497 /* IceViewController.xib */; };
+		56D7FFFB1D09C65B00712497 /* ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFFA1D09C65B00712497 /* ice.jpg */; };
+		56D7FFFD1D09C66200712497 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFFC1D09C66200712497 /* fire.jpg */; };
+		56D7FFFF1D09CBF500712497 /* stark.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D7FFFE1D09CBF500712497 /* stark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56D700001D09CC0200712497 /* targaryen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = targaryen.png; path = ../../../../Downloads/targaryen.png; sourceTree = "<group>"; };
+		56D700021D0B2A6F00712497 /* fire_and_ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fire_and_ice.jpg; path = ../../../../Downloads/fire_and_ice.jpg; sourceTree = "<group>"; };
+		56D700041D0B2A7E00712497 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		56D700051D0B2A7E00712497 /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		56D7FFDC1D09C43400712497 /* InternalMessagingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternalMessagingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D7FFDF1D09C43400712497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56D7FFE61D09C43400712497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56D7FFE91D09C43400712497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56D7FFEB1D09C43400712497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D7FFF11D09C46A00712497 /* FireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
+		56D7FFF21D09C46A00712497 /* FireViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FireViewController.xib; sourceTree = "<group>"; };
+		56D7FFF51D09C48B00712497 /* IceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceViewController.swift; sourceTree = "<group>"; };
+		56D7FFF61D09C48B00712497 /* IceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IceViewController.xib; sourceTree = "<group>"; };
+		56D7FFFA1D09C65B00712497 /* ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ice.jpg; path = ../../../../Downloads/ice.jpg; sourceTree = "<group>"; };
+		56D7FFFC1D09C66200712497 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fire.jpg; path = ../../../../Downloads/fire.jpg; sourceTree = "<group>"; };
+		56D7FFFE1D09CBF500712497 /* stark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stark.png; path = ../../../../Downloads/stark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D7FFD91D09C43400712497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56D7FFD31D09C43400712497 = {
+			isa = PBXGroup;
+			children = (
+				56D7FFDE1D09C43400712497 /* InternalMessagingApp */,
+				56D7FFDD1D09C43400712497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56D7FFDD1D09C43400712497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D7FFDC1D09C43400712497 /* InternalMessagingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D7FFDE1D09C43400712497 /* InternalMessagingApp */ = {
+			isa = PBXGroup;
+			children = (
+				56D7FFF91D09C64900712497 /* FireAndIce */,
+				56D7FFDF1D09C43400712497 /* AppDelegate.swift */,
+				56D7FFE61D09C43400712497 /* Assets.xcassets */,
+				56D7FFE81D09C43400712497 /* LaunchScreen.storyboard */,
+				56D7FFEB1D09C43400712497 /* Info.plist */,
+				56D7FFF11D09C46A00712497 /* FireViewController.swift */,
+				56D7FFF21D09C46A00712497 /* FireViewController.xib */,
+				56D7FFF51D09C48B00712497 /* IceViewController.swift */,
+				56D7FFF61D09C48B00712497 /* IceViewController.xib */,
+				56D700041D0B2A7E00712497 /* LandingViewController.swift */,
+				56D700051D0B2A7E00712497 /* LandingViewController.xib */,
+			);
+			path = InternalMessagingApp;
+			sourceTree = "<group>";
+		};
+		56D7FFF91D09C64900712497 /* FireAndIce */ = {
+			isa = PBXGroup;
+			children = (
+				56D700021D0B2A6F00712497 /* fire_and_ice.jpg */,
+				56D7FFFA1D09C65B00712497 /* ice.jpg */,
+				56D7FFFC1D09C66200712497 /* fire.jpg */,
+				56D7FFFE1D09CBF500712497 /* stark.png */,
+				56D700001D09CC0200712497 /* targaryen.png */,
+			);
+			name = FireAndIce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D7FFDB1D09C43400712497 /* InternalMessagingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D7FFEE1D09C43400712497 /* Build configuration list for PBXNativeTarget "InternalMessagingApp" */;
+			buildPhases = (
+				56D7FFD81D09C43400712497 /* Sources */,
+				56D7FFD91D09C43400712497 /* Frameworks */,
+				56D7FFDA1D09C43400712497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternalMessagingApp;
+			productName = InternalMessagingApp;
+			productReference = 56D7FFDC1D09C43400712497 /* InternalMessagingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D7FFD41D09C43400712497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iXperience;
+				TargetAttributes = {
+					56D7FFDB1D09C43400712497 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 56D7FFD71D09C43400712497 /* Build configuration list for PBXProject "InternalMessagingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D7FFD31D09C43400712497;
+			productRefGroup = 56D7FFDD1D09C43400712497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D7FFDB1D09C43400712497 /* InternalMessagingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D7FFDA1D09C43400712497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D700071D0B2A7E00712497 /* LandingViewController.xib in Resources */,
+				56D7FFF41D09C46A00712497 /* FireViewController.xib in Resources */,
+				56D7FFFD1D09C66200712497 /* fire.jpg in Resources */,
+				56D7FFEA1D09C43400712497 /* LaunchScreen.storyboard in Resources */,
+				56D700031D0B2A6F00712497 /* fire_and_ice.jpg in Resources */,
+				56D7FFFB1D09C65B00712497 /* ice.jpg in Resources */,
+				56D7FFF81D09C48B00712497 /* IceViewController.xib in Resources */,
+				56D700011D09CC0200712497 /* targaryen.png in Resources */,
+				56D7FFFF1D09CBF500712497 /* stark.png in Resources */,
+				56D7FFE71D09C43400712497 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D7FFD81D09C43400712497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D7FFF71D09C48B00712497 /* IceViewController.swift in Sources */,
+				56D7FFF31D09C46A00712497 /* FireViewController.swift in Sources */,
+				56D700061D0B2A7E00712497 /* LandingViewController.swift in Sources */,
+				56D7FFE01D09C43400712497 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56D7FFE81D09C43400712497 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D7FFE91D09C43400712497 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D7FFEC1D09C43400712497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56D7FFED1D09C43400712497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D7FFEF1D09C43400712497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternalMessagingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixperience.InternalMessagingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56D7FFF01D09C43400712497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternalMessagingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixperience.InternalMessagingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D7FFD71D09C43400712497 /* Build configuration list for PBXProject "InternalMessagingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D7FFEC1D09C43400712497 /* Debug */,
+				56D7FFED1D09C43400712497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D7FFEE1D09C43400712497 /* Build configuration list for PBXNativeTarget "InternalMessagingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D7FFEF1D09C43400712497 /* Debug */,
+				56D7FFF01D09C43400712497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D7FFD41D09C43400712497 /* Project object */;
+}
